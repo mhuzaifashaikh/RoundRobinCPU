@@ -13,3 +13,6 @@ To Run the program:
   -Issue this command to run the program: java r_robin.java
   
   -Follow the steps prompted once the program is run
+
+
+I have also created a test file with 10 combinations of sample inputs which may be compiled and run the same way described above and does not require user input.
