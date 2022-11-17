@@ -5,7 +5,11 @@ This JAVA program shows you the average waiting time of the processes that are b
 Currently it is structured mainly using arrays, I hope to find the time to optimize this algorithm using more effecient data structures. I also hope to add error handling soon.
 
 To Run the program:
+
 -Run it locally using a java compiler 
+
   -Issue this command to compile the program: javac r_robin.java
+  
   -Issue this command to run the program: java r_robin.java
+  
   -Follow the steps prompted once the program is run
