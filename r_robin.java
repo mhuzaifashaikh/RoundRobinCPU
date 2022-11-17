@@ -155,7 +155,9 @@ public class r_robin{
                 rearrangeQueue(readyQueue,n); // keeps the order of the processes in check, everytime the CPU is given up by a process.
             }
         }
- 
+
+
+
 
         /**
          * Thisfor loop uses basic math to calculate the waiting time for each process and add them to the wait array with respect to each index.
@@ -166,6 +168,11 @@ public class r_robin{
         }
 
 
+        System.out.print("\nProcess ID.\tArrival Time\tBurst Time\tWait Time" + "\n");
+        for(int i = 0; i < n; i++){
+            System.out.print(i+1+"\t\t"+arrival[i]+"\t\t"+burst[i]
+                             +"\t\t"+wait[i]+"\n");
+        }
 
         /**
          * this for loop goes through all the elements of the wait array in to calulcate the average wating time of them all 
